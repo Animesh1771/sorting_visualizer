@@ -35,11 +35,11 @@ function Selection_sort() {
 
       div_update(divs[index_min], div_sizes[index_min], "red"); //Height update
       div_update(divs[i], div_sizes[i], "red"); //Height update
-      div_update(divs[index_min], div_sizes[index_min], "blueviolet"); //Color update//start blue
+      div_update(divs[index_min], div_sizes[index_min], "blueviolet"); //Color update
     }
     div_update(divs[i], div_sizes[i], "rgb(17, 145, 230)"); //Color update
   }
-  div_update(divs[i], div_sizes[i], "rgb(17, 145, 230)"); //Color update//geen
+  div_update(divs[i], div_sizes[i], "rgb(17, 145, 230)"); //Color update
 
   enable_buttons();
 }
